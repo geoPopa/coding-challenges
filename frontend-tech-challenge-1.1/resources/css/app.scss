@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+    th.sorted-field {
+        &.asc::after {
+            display: inline-block;
+            content: '▼';
+        }
+        &.desc::after {
+            display: inline-block;
+            content: '▲';
+        }
+    }
+}
