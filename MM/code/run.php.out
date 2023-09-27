@@ -1,0 +1,30 @@
+[MMarkets\CommandReader::getMatchingProperty] countBy: count_by_vendor_id
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(OfferId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(ProductTitle)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 1, $regExp = /^countBy(VendorId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = [countByVendorId, VendorId, ]
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 84 to 35 with exact filter
+[MMarkets\CommandReader::getMatchingProperty] countBy: count_by_vendor_id
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(OfferId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(ProductTitle)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 1, $regExp = /^countBy(VendorId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = [countByVendorId, VendorId, ]
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 84 to 35 with exact filter
+[MMarkets\CommandReader::getMatchingProperty] countBy: count_by_vendor_id
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(OfferId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 0, $regExp = /^countBy(ProductTitle)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = []
+[MMarkets\CommandReader::getMatchingProperty] Match result: $noMatches = 1, $regExp = /^countBy(VendorId)(|Range)$/i, $snakeCaseCountBy = countByVendorId, $matches = [countByVendorId, VendorId, ]
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 35 to 35 with exact filter
+[MMarkets\CommandReader::doesPropertyValueApply] $filterType = , $propertyName = vendorId, $values = 35
+[MMarkets\{closure}] Compare 84 to 35 with exact filter

@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web-server:
+    container_name: mm_nginx
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./code:/code
+      - ./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf
+  php:
+    image: php:8.1-fpm
+    container_name: mm_php
+    volumes:
+      - ./code:/code
+
+# composer:
+#   restart: 'no'
+#   image: composer/composer:php7
+#   command: install
+#   volumes:
+#     - .:/app
