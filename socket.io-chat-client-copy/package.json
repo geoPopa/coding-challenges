@@ -1,0 +1,21 @@
+{
+  "name": "socket.io-chat-client",
+  "version": "1.0.0",
+  "description": "Web socket.io chat client",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run buildCss && node index.js",
+    "buildCss": "lessc ./public/style.less ./public/style.css"
+  },
+  "keywords": [
+    "socket.io",
+    "chat"
+  ],
+  "author": "Georgiana Popescu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "less": "^4.1.2",
+    "socket.io": "^4.3.1"
+  }
+}

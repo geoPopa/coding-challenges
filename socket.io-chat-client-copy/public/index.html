@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat client</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <ul class="pages">
+      <li class="chat page">
+        <div class="chat-area">
+          <ul id="messages"></ul>
+        </div>
+        <form id="client-message-form" action="">
+          <input id="input" name="message" autocomplete="off" />
+          <button name="send-message">Send</button>
+        </form>
+      </li>
+      <li class="login page">
+        <div class="form">
+          <h3 class="title">Login</h3>
+          <div class="login-error"></div>
+          <input
+            class="usernameInput"
+            id="login-username"
+            type="text"
+            maxlength="14"
+            minlength="3"
+            placeholder="Username"
+            autofocus
+            required
+          />
+          <input
+            class="passwordInput"
+            id="login-password"
+            type="password"
+            maxlength="20"
+            minlength="5"
+            placeholder="Password"
+            required
+          />
+          <button name="signIn" id="sign-in">Go</button>
+        </div>
+      </li>
+    </ul>
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script type="module" src="./main.js" defer></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdZ_DwRNtqduQdFO0Wio_CUFjAS1QN9po"
+      async
+    ></script>
+  </body>
+</html>
